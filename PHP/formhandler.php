@@ -10,7 +10,7 @@
         $address = $_REQUEST['address'];
         $file = $_REQUEST['file'];
 
-        $sql = "INSERT INTO DATA  VALUES ('$fname','$lname',' $Date ','$mobile','$email','$address','$file')";
+        $sql = "INSERT INTO DATA  VALUES ('$fname','$lname','$Date','$mobile','$email','$address','$file')";
 
         mysqli_query($conn,$sql);
         
