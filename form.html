@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <link rel="stylesheet" href="form.css">
+  </head>
+
+  <body>
+    <div class="form-center">
+      <form action="formhandler.php" class="form-container"  method="post">
+        <h1>Rentals</h1>
+        <p><b>Car Rentals in India </b></p><br>
+         
+        <lable for="fname">First Name :</lable>
+       <input type="text" id="fname" name="fname" placeholder="Enter Your First Name">
+        <br><br>
+
+        <lable for="lname">Last Name :</lable>
+        <input type="text" id="lname" name="lname" placeholder="Enter Your Last Name">
+        <br><br>
+
+        <label for="Date">Enter Date :</label>
+        <input type="date" id="Date" name="Date">
+        <br><br>
+    
+        <label for="mobile">Mobile No:</label>
+        <input type="tel" id="mobile" name="mobile" placeholder="Enter mobile No.">
+        <br><br>
+
+        <label for="email"><b> Email :</b></label>
+        <input type="text" id="email" name="email" placeholder="Enter Email" name="email" required>
+        <br><br>
+
+        <label for="address">Address :</label>
+        <input type="text" id="address" name="address" placeholder="Enter Address">
+        <br><br>
+
+        <label for="file">Upload Driving License :</label><br>
+        <input type="file" id="file" name="file" >
+        <br><br>
+
+        <input type="submit" class="btn" name="button" value="Submit">
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+      </form>
+    </div>
+  </body>
+</html>

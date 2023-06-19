@@ -1,0 +1,245 @@
+body{
+    background-image: linear-gradient(to top right,#fee140,#ea88a5);
+
+  }
+h1{
+  text-align:center;
+    color:black;
+  }
+h2{
+    text-align:center;
+    color:black;
+}
+
+/* CSS For List */
+
+.menu{
+  top:0%;left:0%;right: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.active{
+    border:1px;
+    color:red;
+    padding:25px;
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color:black;
+align-items: center;
+}
+
+li {
+float: left;
+}
+
+li a {
+border:1px;
+display: block;
+color: red;
+text-align: center;
+padding: 25px;
+text-decoration: none;
+
+}
+li a:hover {
+background-color: rgb(209, 202, 202);
+}
+
+.head{
+    width: 1407px;
+     height: 450px;
+}
+
+
+/* CSS For Cars */
+
+.main{
+    display: flex;
+    margin: 5px;
+    overflow-x: auto;
+   
+    
+}
+.main::-webkit-scrollbar{
+    display: none;
+}
+.card{
+    margin: 15px;
+    border:1.5px solid black;
+    border-radius: 20px;
+    background-color:rgba(146, 116, 116, 0.4);
+    padding-bottom: 30px;
+    box-shadow: 10px 10px 25px black;
+  background-image:linear-gradient(to left ,#e07f7b,#ff847c,#ffaa8d,#ffd5c2);
+
+}
+.card img
+{
+    height: 160px;
+    width: 300px;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+}
+.card h4,p{
+    margin-left: 10px;
+    color: black;
+}
+.card a{
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+.card:hover{
+    scale: 1.04;
+}
+#i1{
+    width: 1420px;
+   
+}
+
+
+/* CSS For Templet and Dialogue*/
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: xx-large;
+  }
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+ /* CSS For Button */
+  button{
+    float: right;
+    margin-right: 35px;
+    width: 100px;
+    height: 30px;
+    border-radius: 70px ;
+   background-image: linear-gradient(to right,#f6d365 0%,#fda085 51%,#f6d365 100%); 
+
+   
+  }
+   input[type=submit] {
+    background-color: rgb(11, 153, 11);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor:pointer;
+  }
+
+  /* .form{
+   display: grid;
+  justify-content: center;
+   
+  } */
+  /* CSS For Adv */
+  .cart
+  {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    padding: 15px;
+  }
+  .cart-tital
+  {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+  color: rgb(255, 255, 255);
+  }
+ 
+  .cart img
+  {
+      height: 400px;
+      width: 300px;
+     border-radius: 12px;
+  }
+
+
+  /* CSS For Customer Review */
+  .Rmain
+  {
+    display: flex;
+    margin: 5px;
+    overflow-x: auto;
+    
+  }
+  .review{
+
+    margin: 15px;
+    border:1.5px solid black;
+    border-radius: 20px;
+    background-color:rgba(146, 116, 116, 0.4);
+    padding-bottom: 20px;
+    padding: 50px;
+  
+  
+  }
+  .review img{
+      height: 125px;
+      weight: 125px;
+      border-radius: 100%;
+      
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  
+/* CSS For Footer  */
+footer {
+  margin: 0%;
+  display: flex;
+  flex-direction: column; 
+  background-color: black;
+  align-items: center;
+  color: white;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  
+}
+
+.footer0 {
+  font-weight: 1200;
+  /* transition-duration: 1s; */
+}
+
+.footer1
+{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+  flex-wrap: wrap;
+}
+
+.footer2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+  flex-wrap: wrap;
+}
+/* @media screen and(min-width:400px){
+body{
+  width: 138%;
+}
+} */

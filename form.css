@@ -1,0 +1,25 @@
+body{
+  background: radial-gradient(#D16BA5,#86A8E7,#5FFBF1);
+}
+h1{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+
+
+.form-center
+{
+  display: flex;
+  justify-content: center;
+  
+}
+.form-container
+{
+  border: 2px solid black;
+  padding: 65px;
+  background-color: rgba(250, 235, 215, 0.599);
+  border-radius: 20px;
+  font-size: 20px;
+}
