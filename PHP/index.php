@@ -10,7 +10,7 @@
         // servername => localhost
         // username => root
         // password => empty
-        // database name => staff
+        // database name => clientdata
             
         //mysqli connect() Function:opens a new connection to the MySQL server.
             //mysqli_connect(host, username, password, dbname, port, socket)
@@ -27,8 +27,6 @@
         $fname =  $_REQUEST['fname'];//$_REQUEST is a PHP super global variable which is used to collect data after submitting an HTML form.
         $lname = $_REQUEST['lname'];
         $Date = $_REQUEST['Date'];
-        $stime = $_REQUEST['stime'];
-        $etime = $_REQUEST['etime'];
         $mobile = $_REQUEST['mobile'];
         $email = $_REQUEST['email'];
         $address = $_REQUEST['address'];
